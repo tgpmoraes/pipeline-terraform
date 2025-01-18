@@ -17,5 +17,5 @@ jobs:
       uses: actions/checkout@v4
     - name: Terraform Destroy
       run: |
-        terraform ini
+        terraform init
         terraform destroy -auto-approve
